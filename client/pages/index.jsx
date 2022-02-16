@@ -12,7 +12,7 @@ const style = {
   details: `text-lg text-center text=[#282b2f] font-semibold mt-4`,
 }
 
-export default function Home() {
+function Home() {
   const { address, connectWallet } = useWeb3()
 
   const welcomeUser = (userName, toastHandler = toast) => {
@@ -68,3 +68,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
