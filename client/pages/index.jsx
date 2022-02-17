@@ -60,7 +60,7 @@ function Home() {
             Connect Wallet
           </button>
           <div className={style.details}>
-            You need Meta to be
+            You need MetaMask to be
             <br /> able to run this app.
           </div>
         </div>
