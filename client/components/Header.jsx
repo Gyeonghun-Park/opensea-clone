@@ -41,9 +41,21 @@ function Header() {
         >
           <div className={style.headerItem}> Collections </div>
         </Link>
-        <div className={style.headerItem}> Stats </div>
-        <div className={style.headerItem}> Resources </div>
-        <div className={style.headerItem}> Create </div>
+        <Link
+          href={`/collections/${process.env.NEXT_PUBLIC_NFT_COLLECTION_ADDRESS}`}
+        >
+          <div className={style.headerItem}> Stats </div>
+        </Link>
+        <Link
+          href={`/collections/${process.env.NEXT_PUBLIC_NFT_COLLECTION_ADDRESS}`}
+        >
+          <div className={style.headerItem}> Resources </div>
+        </Link>
+        <Link
+          href={`/collections/${process.env.NEXT_PUBLIC_NFT_COLLECTION_ADDRESS}`}
+        >
+          <div className={style.headerItem}> Create </div>
+        </Link>
         <div className={style.headerIcon}>
           <CgProfile />
         </div>
